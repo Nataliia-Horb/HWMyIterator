@@ -7,7 +7,7 @@ import java.util.Iterator;
 public class Main {
     public static void main(String[] args) {
         MyDataClass data = new MyDataClass(new ArrayList<>(Arrays.asList("Sascha", "Petia", "Vasia", "Illona",
-                "Vasia", "Andrii")));
+                "Vasia", "Andrii", "Nataliia")));
 
         Iterator<String> itr = data.iterator();
         while (itr.hasNext()) {
